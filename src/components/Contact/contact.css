@@ -1,0 +1,54 @@
+.contacts{
+    text-transform: capitalize;
+}
+.contact-card{
+    margin: 7rem auto;
+    width: 25%;
+    border-radius: 1rem;
+    /* text-align: center; */
+    background-color: #97bc62ff;
+    position: relative;
+    height: 220px;
+    /* padding: 4rem 0; */
+}
+.img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+.img-card{
+    border: 5px solid white;
+    border-radius: 50%; 
+    height: 90px;
+    width: 90px;
+    /* float: right; */
+    position: absolute;
+    right: 1.3rem;
+    top: 1.5rem;
+
+}
+.name-div{
+    height: 80px;
+    background-color: #2c5f2d;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.name{
+    font-size: 1.5rem;
+    text-align: left;
+    color: white;
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+    margin-left: 1.4rem;
+}
+.phone{
+    margin-top: 0.3rem;
+    margin-left: 1rem;
+    padding-top: 1rem;
+    text-align: left;
+}
+.email{
+    text-align: left;
+    margin-top: 1.2rem;
+    margin-left: 0.6rem;
+}
